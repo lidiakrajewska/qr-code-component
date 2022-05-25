@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e2f0;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: Min(85%, 330px);
+  padding: 1rem 1rem 2.7rem 1rem;
+  background: white;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-box-shadow: #d3d7de 0 0 20px;
+          box-shadow: #d3d7de 0 0 20px;
+}
+
+.qr-code {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.text-wrapper {
+  margin: 1.4rem 1rem 0 1rem;
+}
+
+.title {
+  margin-bottom: 1.4rem;
+  font-size: 1.4rem;
+  color: #1f3251;
+}
+
+.text {
+  font-size: 0.95rem;
+  color: #7b879d;
+}
+
+footer p,
+footer a {
+  color: #1f3251;
+}
+/*# sourceMappingURL=style.css.map */
